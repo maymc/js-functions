@@ -245,7 +245,12 @@ console.log("addThenSubtract: ", addThenSubtract(bango3, bango4, bango5)); //res
  * Console.log your result.
 */ 
 
+function multiplyThenDivide(num1, num2, num3){
+	
+	return divide(num3, multiply(num1, num2));
+}
 
+console.log("multiplyThenDivide: ", multiplyThenDivide(bango3, bango4, bango5)); //result = 1.25;
 
 
 /*
