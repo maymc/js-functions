@@ -334,7 +334,8 @@ function allCaps(str){
 	return str.toUpperCase();
 }
 
-console.log("allCaps: ", allCaps("believe you can and you're halfway there."));
+var phrase = "believe you can and you're halfway there."
+console.log("allCaps: ", allCaps(phrase));
 
 /*
  * #16
@@ -344,7 +345,10 @@ console.log("allCaps: ", allCaps("believe you can and you're halfway there."));
  * Console.log your result.
 */
 
+//function oneCap(str){
 
+//	return 
+//}
 
 /*
  * #17
