@@ -190,6 +190,13 @@ console.log(checkProduct(sum, product)); //120
  * Console.log your result.  
 */
 
+function checkQuotient(){
+
+	return product*quotient;
+}
+
+console.log(checkQuotient(product, quotient)); //25
+
 /*
  * Declare three variables
  *   @variable Datatype: Number `bango3`
