@@ -288,6 +288,13 @@ console.log("myFullName: ", myFullName);
  * Console.log your result.
  */
 
+ function eatFood(firstName, lastName, food){
+
+ 	return createFullName(firstName, lastName) + " eats " + food + " everyday for breakfast.";
+ }
+
+ console.log("eatFood: ", eatFood("May", "Chen", "pancakes"));
+
 
 
 /************** ENGAGE HYPERDRIVE **************/
