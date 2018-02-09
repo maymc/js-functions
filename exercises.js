@@ -177,7 +177,7 @@ function checkProduct(){
 	return sum*product;
 }
 
-console.log(checkProduct(sum, product)); //120
+console.log("checkProduct: ", checkProduct(sum, product)); //120
 
 /*
  * #9
@@ -195,7 +195,9 @@ function checkQuotient(){
 	return product*quotient;
 }
 
-console.log(checkQuotient(product, quotient)); //25
+console.log("checkQuotient: ", checkQuotient(product, quotient)); //25
+
+
 
 /*
  * Declare three variables
@@ -217,6 +219,16 @@ console.log(checkQuotient(product, quotient)); //25
  * Console.log your result.
 */ 
 
+var bango3 = 2;
+var bango4 = 4;
+var bango5 = 10;
+
+function addThenSubtract(num1, num2, num3){
+
+	return subtract(num3, add(num1, num2));
+}
+
+console.log("addThenSubtract: ", addThenSubtract(bango3, bango4, bango5)); //result = 4
 
 
 /*
@@ -232,6 +244,7 @@ console.log(checkQuotient(product, quotient)); //25
  * This function will multiply the first two parameters together. Then with the product of that operation, divide it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
+
 
 
 
