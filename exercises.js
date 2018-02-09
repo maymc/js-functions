@@ -312,8 +312,8 @@ console.log("myFullName: ", myFullName);
 
 function shoeSize(inches){
 
-	var cmInAnInch = 2.54;
-	return "My shoe size is " + multiply(inches, cmInAnInch) + " cm.";
+	var cm = multiply(inches, 2.54);
+	return "My shoe size is " + cm + " cm.";
 }
 
 console.log("shoeSize: ", shoeSize(7));
@@ -345,10 +345,7 @@ console.log("allCaps: ", allCaps(phrase));
  * Console.log your result.
 */
 
-//function oneCap(str){
 
-//	return 
-//}
 
 /*
  * #17
