@@ -310,6 +310,13 @@ console.log("myFullName: ", myFullName);
  * Console.log your result. 
 */
 
+function shoeSize(inches){
+
+	var cmInAnInch = 2.54;
+	return "My shoe size is " + multiply(inches, cmInAnInch) + " cm.";
+}
+
+console.log("shoeSize: ", shoeSize(7));
 
 
 /*
