@@ -52,7 +52,7 @@ function add(num1, num2){
 }
 
 var sum = add(bango1, bango2);
-console.log(sum); //8
+console.log("sum: ", sum); //8
 
 /*
  * #3
@@ -74,7 +74,7 @@ function subtract(num1, num2){
 }
 
 var difference = subtract(bango1, bango2);
-console.log(difference); //2
+console.log("difference: ", difference); //2
 
 
 /*
@@ -97,7 +97,7 @@ function multiply(num1, num2){
 }
 
 var product = multiply(bango1, bango2);
-console.log(product); //15
+console.log("product: ", product); //15
 
 /*
  * #5
@@ -119,7 +119,7 @@ function divide(num1, num2){
 }
 
 var quotient = divide(bango1, bango2);
-console.log(quotient); //1.667
+console.log("quotient: ", quotient); //1.667
 
 
 /*
@@ -134,7 +134,12 @@ console.log(quotient); //1.667
  * Console.log your result.
 */
 
+function checkSum(x){
+	return "Mariah Carey has been married " + x + " amount of times.";
+}
 
+var daDiva = checkSum(sum);
+console.log(daDiva);
 
 /*
  * #7
