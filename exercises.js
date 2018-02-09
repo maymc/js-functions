@@ -345,7 +345,12 @@ console.log("allCaps: ", allCaps(phrase));
  * Console.log your result.
 */
 
+function oneCap(str){
 
+	return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+console.log("oneCap: ", oneCap(phrase));
 
 /*
  * #17
