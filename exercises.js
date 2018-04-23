@@ -374,7 +374,7 @@ function verifyDrinkAge(age){
 
 }
 
-var canDrink = verifyDrinkAge(22)
+var canDrink = verifyDrinkAge(22);
 console.log("canDrink: ", canDrink);
 
 
@@ -390,7 +390,7 @@ function throwParty(canDrink){
 		return "Cheee Hoo! We going to da party!";
 	}
 	else{
-		return "Meh, see you at Starbucks."
+		return "Meh, see you at Starbucks.";
 	}
 
 }
